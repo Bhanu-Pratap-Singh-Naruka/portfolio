@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Titillium+Web:wght@400;600&display=swap");
+
+:root {
+  --primary-color: #065f46;
+  --off-white: #cbd5e1;
+  --dark-gray: #6b7820;
+}
+
+body {
+  font-family: "Titillium Web", sans-serif;
+  margin: 0;
+}
+hr {
+  margin: 2rem 0rem;
+}
+
+/* container */
+
+.containerCenter {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Links */
+
+.primaryLink {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #065f46;
+  border-radius: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.secondaryLink {
+  color: var(--primary-color);
+  text-decoration: none;
+  border: 1px solid #065f46;
+  border-radius: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+/* List */
+
+.unorderedList {
+  list-style: none;
+}
+.lnlineList {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* Nav */
+
+.navBar {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.4rem;
+}
+.navBar ul li a {
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+.navBar li a:hover {
+  text-decoration: underline red;
+  font-weight: bolder;
+}
+.navList {
+  text-align: right;
+}
+.about {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.navList li a {
+  text-decoration: none;
+}
+
+/* header */
+.hero {
+  padding: 2rem;
+}
+.hero-img {
+  width: 400px;
+  display: block;
+  margin: auto;
+}
+.hero-heading {
+  font-size: 2rem;
+  color: var(--dark-gray);
+  text-align: center;
+}
+
+/* Section */
+.section {
+  padding: 2rem;
+}
+.section h3 {
+  text-align: center;
+}
+.ow {
+  background-color: var(--off-white);
+}
+
+/* Footer */
+.footer-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer-list li a:hover {
+  text-decoration: underline red;
+  font-weight: bolder;
+}
+.footer-list li {
+  display: inline;
+  padding: 2rem;
+}
+.footer-list {
+  text-align: center;
+}
+.footer {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 0.4rem;
+}
+.footer-header {
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+}
+.footer ul {
+  padding-inline-start: 0px;
+}
